@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'phonenumber_field',
     'django.contrib.staticfiles',
     'buggiapp',
 
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'buggiproj.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    'default': {}
+    'default': {},
 
     'Master':{
         'ENGINE': 'django.db.backends.mysql',
@@ -84,28 +85,28 @@ DATABASES = {
             'USER':'root',
             'PASSWORD':'windows',
             'HOST':'localhost',
-    }
+    },
     'Orderdb':{
         'ENGINE': 'django.db.backends.mysql',
             'NAME':'Orderdb',
             'USER':'root',
             'PASSWORD':'windows',
             'HOST':'localhost',
-    }
+    },
     'Comm_service':{
         'ENGINE': 'django.db.backends.mysql',
             'NAME':'Comm_service',
             'USER':'root',
             'PASSWORD':'windows',
             'HOST':'localhost',
-    }
+    },
     'Transactions':{
         'ENGINE': 'django.db.backends.mysql',
             'NAME':'Transactions',
             'USER':'root',
             'PASSWORD':'windows',
             'HOST':'localhost',
-    }
+    },
 }
 
 
