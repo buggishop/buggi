@@ -100,9 +100,9 @@ DATABASES = {
             'PASSWORD':'windows',
             'HOST':'localhost',
     },
-    'Transactions':{
+    'Transaction':{
         'ENGINE': 'django.db.backends.mysql',
-            'NAME':'Transactions',
+            'NAME':'Transaction',
             'USER':'root',
             'PASSWORD':'windows',
             'HOST':'localhost',
