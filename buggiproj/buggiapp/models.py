@@ -26,7 +26,7 @@ class Shop(models.Model):
     ShopId=models.IntegerField(primary_key=True)
     UserId=models.ForeignKey(User,on_delete=models.CASCADE)
     Shop_name=models.CharField(max_length=30)
-    Shop_image=models.models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=None)
+    Shop_image=models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=None)
 
 class Address_shop(models.Model):
     ShopId=models.ForeignKey(Shop,on_delete=models.CASCADE)

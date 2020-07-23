@@ -57,7 +57,7 @@ ROOT_URLCONF = 'buggiproj.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/alisha/Buggi_git/buggi/buggiproj/buggiapp/Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
