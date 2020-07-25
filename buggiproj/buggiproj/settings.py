@@ -77,7 +77,11 @@ WSGI_APPLICATION = 'buggiproj.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    'default': {},
+    'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'mysql',
+            'USER':'django',
+            'PASSWORD':'Django@123',},
 
     'Master':{
         'ENGINE': 'django.db.backends.mysql',
